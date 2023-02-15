@@ -1,4 +1,4 @@
-  let gameList = document.querySelector("#game-list");
+let gameList = document.querySelector("#game-list");
 
 fetch("http://localhost:3000/games")
   .then((res) => res.json())
